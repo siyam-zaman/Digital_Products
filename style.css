@@ -74,3 +74,92 @@
     justify-content: space-around;
     align-items: center;
 }
+.Our-Services{
+    height:55vh;
+    background-image: url(./Resource/images/background.png),linear-gradient(130deg,#212121,#000000);
+    color:white;
+    padding:50px 0;
+}
+.Secton-title{
+    font-size:46px;
+    text-align: center;
+    padding:20px 0px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
+}
+.Card01{
+    /* border:2px solid white; */
+    border-radius:10px;
+    padding:15px;
+    justify-content: center;
+    text-align: center;
+    width:250px;
+    background-color:#21212160;
+    box-shadow :4px 4px  15px gray;
+}
+.Card01 img{
+    width:100px;
+    margin-bottom:10px;
+}
+.Card01 h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+.Card01 p{
+    font-size:18px;
+    margin-bottom:10px;
+}
+.details-btn{
+    padding:13px 20px;
+    background-color:#1c1b1b;
+    border: none;
+    color:white;
+    border-radius:5px;
+    font-size:16px;
+    margin-top:20px;
+}
+.Footer-container{
+    background-color:black;
+    height:30vh;
+    color:white;
+}
+.Footer-textPart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer-img{
+    width:200px;
+}
+.Footer-links h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+.Footer-links ul{
+    list-style: none;
+}
+.Footer-Supports h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+.Footer-Supports ul{
+    list-style:none;
+}
+.Footer-info h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+.Footer-info p{
+    margin-bottom:5px;
+}
+hr{
+    width:60vw;
+    margin-left:20vw;
+    margin-top:40px;
+}
+.Copyright{
+    text-align: center;
+    margin-top:40px;
+}
